@@ -10,11 +10,11 @@ experienceLevel:
 
 jobTypes:
   full-time: true
-  contract: false
-  part-time: false
+  contract: true
+  part-time: true
   temporary: true
   internship: false
-  other: false
+  other: true
   volunteer: true
 
 date:
@@ -25,25 +25,27 @@ date:
 
 positions:
   - Software engineer
+  - Senior software engineer
+  - Full Stack
+  - Frontend
+  - Backend
 
 locations:
-  - Germany
+  - USA
+  - United States of America
+  - New York
 
 apply_once_at_company: true
 
 distance: 100
 
 company_blacklist:
-  - wayfair
-  - Crossover
 
 title_blacklist:
-  - word1
-  - word2
 
 job_applicants_threshold:
   min_applicants: 0
-  max_applicants: 30
+  max_applicants:
 
 llm_model_type: openai
 llm_model: 'gpt-4o-mini'
